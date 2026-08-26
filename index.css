@@ -55,3 +55,8 @@ body {
 .home-link:hover {
     background: #333;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
