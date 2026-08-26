@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ROGFonts';
+    src: url('ROGFonts-Regular.woff2') format('woff2'),
+        url('ROGFonts-Regular.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+}
