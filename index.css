@@ -51,3 +51,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.home-link:hover {
+    background: #333;
+}
