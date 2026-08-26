@@ -40,3 +40,14 @@ body {
 .index-table tr:hover {
     background: #f1f1f1;
 }
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
