@@ -10,3 +10,33 @@ body {
     background-color: #f3f3f3;
     text-align: center;
 }
+
+
+.index-table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(image/white.jpg); /* your background image */
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.index-table th,
+.index-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.index-table th {
+    background: #f4f4f4;
+    font-weight: bold;
+}
+
+.index-table tr:hover {
+    background: #f1f1f1;
+}
