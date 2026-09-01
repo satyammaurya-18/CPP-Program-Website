@@ -9,3 +9,54 @@
     /* Changed to ROG font */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.footer {
+    background: #ffffff;
+    /* Background color */
+    padding: 2rem 9%;
+    box-shadow: 0 -0.5rem 1.5rem #0000001a;
+    /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #ddd;
+    /* Adds a top border */
+}
+
+.footer .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    /* Space between links */
+}
+
+.footer .navbar a {
+    font-size: 1.4rem;
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.footer .navbar a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer .navbar a:hover {
+    color: black;
+}
+
+.footer .navbar a:hover::after {
+    transform: scaleX(1);
+}
