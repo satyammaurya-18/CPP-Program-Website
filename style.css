@@ -56,3 +56,43 @@ body {
 box h2 {
     text-align: center;
 }
+.box pre, .box code, .box p {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+.black-box {
+    color: white;
+}
+
+.white-box {
+    color: black;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px;
+}
+
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    min-width: 120px;
+    text-align: center;
+}
+
+.nav-buttons a:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
